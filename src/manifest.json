@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "Am I A Participant (Gmail)",
+	"description": "Check if you are a participant of a conversation in Gmail. Helps you stop sending emails with the wrong address.",
+	"version": "1.0",
+	"author": "Brent Vollebregt",
+	"icons": {
+		"128": "icon128.png"
+	},
+	
+	"browser_action": {
+		"default_icon": "icon128.png"
+	},
+    
+	"content_scripts": [
+		{
+			"matches": ["https://mail.google.com/mail/u/*"],
+			"run_at": "document_idle",
+			"js": ["checkParticipants.js"]
+		}
+	]
+}
