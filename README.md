@@ -2,7 +2,7 @@
 
 Check if you are a participant of a conversation in Gmail. Helps you stop sending emails with the wrong address. A red outline around "Reply" and "Reply All" will appear if the currently logged in email is not part of the conversation.
 
-![Warning applied to buttons](https://nitratine.net/post-assets/am-i-a-participant/buttons.png)
+![Warning applied to buttons](https://nitratine.net/posts/am-i-a-participant/buttons.png)
 
 ## Installation
 ### Using the .crx File
